@@ -34,3 +34,6 @@ class(pop)
 class(murders$region)
 
 levels(murders$region)
+
+#функція table() рахує скільки яких елементів у векторі
+table(murders$region)
